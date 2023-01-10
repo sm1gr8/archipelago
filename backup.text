@@ -1,0 +1,177 @@
+  <div class="about-last-section">
+            <div class="container">
+               <div class="row about-last-section-pd">
+                  <div class="col-xl-5 col-lg-5 col-md-12 col-sm-12 col-xs-12">
+                     <div class="abou-text-heading">
+                        <div class="sub-head-h">
+                           <p class="upper-case-head" style="color:#00979c;">OUR</p>
+                        </div>
+                        <h2 class="main-heading-tile-cover about-sub-third-resize"
+                           style="line-height: 85px;    font-size: 5em;color:#002c38;">
+                           STRATEGIC<br>PARTNERS
+                        </h2>
+                     </div>
+                  </div>
+                  <div class="col-xl-7 col-lg-7 col-md-12 col-sm-12 col-xs-12">
+                     <div class="health-care-logos">
+                        <span>HEALTHCARE</span>
+                        <ul>
+                           <li><img src="images/healthcare-logo1.png"></li>
+                           <li><img src="images/healthcare-logo2.png"></li>
+                           <li><img src="images/healthcare-logo3.png"></li>
+                           <li><img src="images/healthcare-logo4.png"></li>
+                        </ul>
+                     </div>
+                     <div class="health-care-logos">
+                        <span>TECHNOLOGY</span>
+                        <ul>
+                           <li><img src="images/healthcare-5.png"></li>
+                           <li style="margin-left: 40px;"><img src="images/healthcare-6.png"></li>
+                           <li style="margin-left: 40px;"><img src="images/healthcare-7.png"></li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+
+    <div class="ihp-healthcare">
+            <div class="container">
+               <div class="row">
+                  <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                     <div class="ihp-content-left" data-aos="zoom-in-right" data-aos-offset="100" data-aos-delay="500"
+                        data-aos-duration="1000">
+                        <img src="images/ihp-logo.png"><br>
+                        <span>Part Of Fullerton<br>
+                           Health Group Of Companies</span>
+                        <p>We are a leading vertically integrated enterprise healthcare
+                           solutions provider across Asia Pacific. We are transforming
+                           Asian Healthcare, making it affordable, accessible and
+                           sustainable to those we serve. Our aim is to be Asia’s
+                           Pre-Eminent Tool Healthcare Solutions Provider.</p>
+                     </div>
+                  </div>
+                  <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                     <div class="unique-bv-content-one" data-aos="zoom-in-left" data-aos-offset="100"
+                        data-aos-delay="500" data-aos-duration="1000">
+                        <div class="sub-head-h">
+                           <p class="upper-case-head" style="color:#00979c;font-size: 24px;">
+                              OUR
+                           </p>
+                        </div>
+                        <h4>DELIVERY<br>PARTNERS</h4>
+                        <p>We partner with the best
+                           healthcare service providers for
+                           our clients.</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="row madi-heal-care-b-h" data-aos="zoom-in" data-aos-offset="0" data-aos-delay="1000"
+                  data-aos-duration="1000">
+                  <div class="col">
+                     <div class="ihp-content-img-box">
+                        <div class="ihp-img-hold"><img src="images/ihp-00.png"></div>
+                        <div class="ihp-text-hold">
+                           <span>> 17,000</span>
+                           <p>Corporate<br>Clients</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col">
+                     <div class="ihp-content-img-box">
+                        <div class="ihp-img-hold"><img src="images/ihp-01.png"></div>
+                        <div class="ihp-text-hold">
+                           <span>> 10,000</span>
+                           <p>Network<br>Partners</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col">
+                     <div class="ihp-content-img-box">
+                        <div class="ihp-img-hold"><img src="images/ihp-02.png"></div>
+                        <div class="ihp-text-hold">
+                           <span>> 1,000</span>
+                           <p>Medical<br>Professionals</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col">
+                     <div class="ihp-content-img-box">
+                        <div class="ihp-img-hold"><img src="images/ihp-03.png"></div>
+                        <div class="ihp-text-hold">
+                           <span>> 50</span>
+                           <p>Years Of Experience In<br>
+                              Healthcare & Enterprise<br>
+                              Healthcare Solutions</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col">
+                     <div class="ihp-content-img-box">
+                        <div class="ihp-img-hold"><img src="images/ihp-04.png"></div>
+                        <div class="ihp-text-hold">
+                           <span>> 550</span>
+                           <p>Own And<br>
+                              Operated Medical
+                              <br>Centres
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="row">
+                  <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                     <div class="emedia-second-setion-left" data-aos="fade-right" data-aos-offset="100"
+                        data-aos-delay="500" data-aos-duration="1000">
+                        <img src="images/emedia-second-logo01.png">
+                        <ul>
+                           <li>eMedAsia is a private limited company with a majority stake
+                              held by Koperasi Persatuan Perubatan Malaysia (KOOP MMA).</li>
+                           <li>
+                              As of May 2020, eMedAsia has onboarded almost 2,000
+                              registered private clinics across West and East Malaysia out of
+                              the total 6,000 private clinics in the nation, and this number
+                              of member clinics is constantly growing.
+                           </li>
+                           <li>
+                              Pre-agreed pricing and bespoke services for ARCARE clients.
+                           </li>
+                        </ul>
+                     </div>
+                  </div>
+                  <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 emedia-second-down">
+                     <div class="row">
+                        <div class="col">
+                           <div class="emedia-second-setion-right" data-aos="zoom-in-left" data-aos-offset="100"
+                              data-aos-delay="500" data-aos-duration="1000">
+                              <div class="emedia-box-one-z">
+                                 <img src="images/emedia-desk.png">
+                              </div>
+                              <div class="emedia-box-one-bor">
+                                 <span>FULLY<br>
+                                    DIGITALISED<br>
+                                    PLATFORM
+                                 </span>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col">
+                           <div class="emedia-second-setion-right" data-aos="zoom-in-left" data-aos-offset="100"
+                              data-aos-delay="500" data-aos-duration="1000">
+                              <div class="emedia-box-one-z">
+                                 <img src="images/emedia-home.png">
+                              </div>
+                              <div class="emedia-box-one-bor">
+                                 <span>~2,000<br>
+                                    CLINICS<br>
+                                    IN MALAYSIA
+                                 </span>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+

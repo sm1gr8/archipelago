@@ -1,0 +1,423 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Bootstrap CSS -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/aos.css" rel="stylesheet">
+	<link href="css/animate.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/owl.carousel.min.css" />
+	<link href="css/main.css?v=2.3" rel="stylesheet">
+	<title>Archipelago</title>
+	<link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="images/favicon/favicon.ico" type="image/x-icon">
+
+	<style>
+		body {
+			margin: 0px;
+			background: #fbfbfb;
+			color: #333338;
+			width: 100vw;
+			height: 100vh;
+			text-rendering: optimizeLegibility;
+			-webkit-font-smoothing: antialiased;
+			-webkit-text-size-adjust: none;
+			-moz-osx-font-smoothing: grayscale;
+			overflow: hidden;
+		}
+
+		.st0 {
+			fill: #404044;
+		}
+
+		.st1 {
+			fill: #404044;
+		}
+
+		.cursor {
+			display: none;
+		}
+	</style>
+</head>
+
+<body>
+
+
+	<div class="loading_mask">
+		<div class="loading_text">
+			<div class="text">
+				<div>Archipelago</div>
+				<div>Home</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="click_mask"></div>
+
+	<div class="container position-relative header-container">
+
+		<div class="header">
+			<a class="logo" href="index.html">
+				<img src="images/logo.png" alt="Archipelago" />
+			</a>
+		</div>
+
+		<div class="menu_bg">
+			<div class="top_menu">
+				<div class="menu-item">
+					<a class="index border-right-hold" href="index.html">Home</a>
+				</div>
+				<div class="menu-item">
+					<a class="about border-right-hold" href="about-us.html">About Us</a>
+				</div>
+				<div class="menu-item dropdown">
+					<a href="javascript:;" class="border-right-hold dropbtn">Products</a>
+					<div class="dropdown-content">
+						<a class="flourish" href="flourish.html">FLOURISH</a>
+						<a class="vivacity" href="vivacity.html">VIVACITY</a>
+						<a class="dexafit" href="dexafit.html">DEXAFIT</a>
+						<a class="arcare" href="arcare.html">ARCARE</a>
+					</div>
+				</div>
+				<div class="menu-item">
+					<a class="headlines border-right-hold" href="headlines.html">Headlines</a>
+				</div>
+				<div class="menu-item">
+					<a class="investor-relations border-right-hold" href="investor-relations.html">Investor
+						Relations</a>
+				</div>
+				<div class="menu-item">
+					<a class="contact" href="contact.html">Contact</a>
+				</div>
+			</div>
+		</div>
+
+	</div> <!-- Ends container -->
+
+	<div class="mobile_menu">
+		<div class="menu_items">
+			<div class="menu-item">
+				<a class="index" href="index.html">Home</a>
+			</div>
+			<div class="menu-item">
+				<a class="about" href="about-us.html">About Us</a>
+			</div>
+			<div class="menu-item">
+				<a class="products dropdown" href="javascripr:;">Products</a>
+				<div class="dropdown-content">
+					<a class="flourish" href="flourish.html">FLOURISH</a>
+					<a class="vivacity" href="vivacity.html">VIVACITY</a>
+					<a class="dexafit" href="dexafit.html">DEXAFIT</a>
+					<a class="arcare" href="arcare.html">ARCARE</a>
+				</div>
+			</div>
+			<div class="menu-item">
+				<a class="headlines" href="headlines.html">Headlines</a>
+			</div>
+			<div class="menu-item">
+				<a class="investor-relations" href="investor-relations.html">Investor Relations</a>
+			</div>
+			<div class="menu-item">
+				<a class="contact" href="contact.html">Contact</a>
+			</div>
+		</div>
+		<div class="follow_me">Follow @archipelago<br><a href="#" target="_blank">Facebook</a> <a href="#"
+				target="_blank">Instagram</a></div>
+	</div>
+
+	<div class="menu_button">
+		<span></span>
+		<span></span>
+	</div>
+
+	<!-- Ends Menu here -->
+
+	<div class="cursor">
+		<svg version="1.1" id="loader" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+			x="0px" y="0px" viewBox="0 0 50 50" xml:space="preserve">
+			<circle class="circle" fill="none" cx="25" cy="25" r="20" />
+		</svg>
+		<svg version="1.1" id="drag" class="line1" xmlns="http://www.w3.org/2000/svg"
+			xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 21.6 10.8"
+			style="enable-background:new 0 0 21.6 10.8;" xml:space="preserve">
+			<polyline points="15,0.4 20.8,5.5 15,10.5 " />
+		</svg>
+		<svg version="1.1" id="drag" class="line2" xmlns="http://www.w3.org/2000/svg"
+			xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 21.6 10.8"
+			style="enable-background:new 0 0 21.6 10.8;" xml:space="preserve">
+			<polyline points="6.6,0.4 0.8,5.5 6.6,10.5 " />
+		</svg>
+	</div>
+
+	<div class="pointer">
+		<svg version="1.1" id="pointer" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+			viewBox="0 0 20 20" style="enable-background:new 0 0 20 20;" xml:space="preserve">
+			<circle cx="10" cy="10" r="10" />
+		</svg>
+	</div>
+
+	<div class="transition_bg">
+		<div class="default_transition">
+			<div class="text">
+				<div>Archipelago</div>
+				<!-- <div>body &amp; soul</div> -->
+			</div>
+		</div>
+		<div class="large_text"></div>
+		<div class="transition_image">
+			<div class="bg"></div>
+		</div>
+	</div>
+
+	<div id="main_page">
+		<div id="scrollbar">
+			<div class="scroller"></div>
+		</div>
+
+		<div class="content index" data-pagename="index" data-menu="1">
+
+			<div class="drag_control"></div>
+
+			<div class="large_bg">
+
+				<div class="bg bg1">
+					<div class="obj_bg" style="background-image: url('images/cover/1.jpg');">
+					</div>
+					<div class="active_detail">
+						<a class="cover_title" href="about-us.html" data-pagetransition="1">
+							<div style="margin-left: -0.1em;">Explore</div>
+						</a>
+						<div class="open_link subhead" style="font-size:1.9em;">
+							<div> Archipelago</div>
+						</div>
+						<div class="open_link banner-sm-text bellMT_font"
+							style="font-size: 1.5em;letter-spacing: 0.56em;">
+							<div>Associates Limited</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="bg bg2">
+					<div class="obj_bg" style="background-image: url('images/cover/2.jpg');">
+					</div>
+					<div class="active_detail">
+						<div class="open_link subhead">
+							<div>Our<br>Products</div>
+						</div>
+						<a class="cover_title" href="flourish.html" data-pagetransition="2">
+							<div style="margin-left: -0.1em;">Flourish</div>
+						</a>
+						<div class="open_link banner-sm-text bellMT_font">
+							<div>AgriTech</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="bg bg3">
+					<div class="obj_bg" style="background-image: url('images/cover/3.jpg');">
+					</div>
+					<div class="active_detail">
+						<div class="open_link subhead">
+							<div>Our<br>Products</div>
+						</div>
+						<a class="cover_title" href="vivacity.html" data-pagetransition="3">
+							<div>Vivacity</div>
+						</a>
+						<div class="open_link banner-sm-text bellMT_font">
+							<div>InsureTech</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="bg bg4">
+					<div class="obj_bg" style="background-image: url('images/cover/4.jpg');">
+					</div>
+					<div class="active_detail">
+						<div class="open_link subhead">
+							<div>Our<br>Products</div>
+						</div>
+						<a class="cover_title" href="dexafit.html" data-pagetransition="4">
+							<div style="margin-left: -0.1em;">Dexafit</div>
+						</a>
+						<div class="open_link banner-sm-text bellMT_font">
+							<div>MediTech</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="bg bg5">
+					<div class="obj_bg" style="background-image: url('images/cover/5.jpg');">
+					</div>
+					<div class="active_detail">
+						<div class="open_link subhead">
+							<div>Our<br>Products</div>
+						</div>
+						<a class="cover_title" href="arcare.html" data-pagetransition="5">
+							<div style="margin-left: -0.1em;">Arcare</div>
+						</a>
+						<div class="open_link banner-sm-text bellMT_font">
+							<div>HealthTech</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="bg bg6">
+					<div class="obj_bg" style="background-image: url('images/cover/6.jpg');">
+					</div>
+					<div class="active_detail">
+						<a class="cover_title" href="contact.html" data-pagetransition="6">
+							<div style="text-align: left;">CONTACT<br>US</div>
+						</a>
+						<!-- <div class="open_link subhead">
+							<div>Archipelago</div>
+						</div>
+						<div class="open_link banner-sm-text bellMT_font">
+							<div>Associates Limited</div>
+						</div> -->
+					</div>
+				</div>
+
+				<div class="bg bg7">
+					<div class="obj_bg" style="background-image: url('images/cover/7.jpg');">
+					</div>
+					<div class="active_detail">
+						<a class="cover_title" href="about-us.html" style="font-size: 4.2em;" data-pagetransition="7">
+							<div>Insuretech<br>
+								For Everyone</div>
+						</a>
+						<div class="open_link subhead">
+							<div>Archipelago</div>
+						</div>
+						<div class="open_link banner-sm-text bellMT_font" style="font-size: 1.5em;">
+							<div>Associates Limited</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+
+			<div class="small_bg">
+
+				<div class="bg bg1">
+					<div class="obj_bg" style="background-image: url('images/cover/1.jpg');">
+					</div>
+					<div class="next_detail">
+						<div class="cover_title">
+							Explore
+						</div>
+						<div class="open_link next-sm-text bellMT_font" style="font-size: 1.5em;">Archipelago</div>
+						<div class="open_link next-sm-text2" style="font-size: 1.3em;">Associates Limited</div>
+					</div>
+				</div>
+
+				<div class="bg bg2">
+					<div class="obj_bg" style="background-image: url('images/cover/2.jpg');">
+					</div>
+					<div class="next_detail">
+						<div class="open_link next-sm-text bellMT_font">Our<br>Products</div>
+						<div class="cover_title">
+							Flourish
+						</div>
+						<div class="open_link next-sm-text2">AgriTech</div>
+					</div>
+				</div>
+
+				<div class="bg bg3">
+					<div class="obj_bg" style="background-image: url('images/cover/3.jpg');">
+					</div>
+					<div class="next_detail">
+						<div class="open_link next-sm-text bellMT_font">Our<br>Products</div>
+						<div class="cover_title">
+							Vivacity
+						</div>
+						<div class="open_link next-sm-text2">InsureTech</div>
+					</div>
+				</div>
+
+				<div class="bg bg4">
+					<div class="obj_bg" style="background-image: url('images/cover/4.jpg');">
+					</div>
+					<div class="next_detail">
+						<div class="open_link next-sm-text bellMT_font">Our<br>Products</div>
+						<div class="cover_title">
+							Dexafit
+						</div>
+						<div class="open_link next-sm-text2">MediTech</div>
+					</div>
+				</div>
+
+				<div class="bg bg5">
+					<div class="obj_bg" style="background-image: url('images/cover/5.jpg');">
+					</div>
+					<div class="next_detail">
+						<div class="open_link next-sm-text bellMT_font">Our<br>Products</div>
+						<div class="cover_title">
+							Arcare
+						</div>
+						<div class="open_link next-sm-text2">HealthTech</div>
+					</div>
+				</div>
+
+				<div class="bg bg6">
+					<div class="obj_bg" style="background-image: url('images/cover/6.jpg');">
+					</div>
+					<div class="next_detail">
+						<!-- <div class="open_link next-sm-text bellMT_font">Our<br>Products</div> -->
+						<div class="cover_title">
+							CONTACT<br>US
+						</div>
+						<!-- <div class="open_link next-sm-text2">AgriTech</div> -->
+					</div>
+				</div>
+
+				<div class="bg bg7">
+					<div class="obj_bg" style="background-image: url('images/cover/7.jpg');">
+					</div>
+					<div class="next_detail">
+						<div class="open_link next-sm-text bellMT_font" style="font-size: 1.6em;">Archipelago</div>
+						<div class="cover_title" style="font-size: 3.5em;">
+							Insuretech<br>For Everyone
+						</div>
+						<!-- <div class="open_link next-sm-text2">AgriTech</div> -->
+					</div>
+				</div>
+
+			</div>
+
+			<div class="front_nav">
+				<div class="next_prev">
+					<div class="prev_btn">prev<span></span></div>
+					<div class="next_btn">next<span></span></div>
+				</div>
+				<div class="slide">
+					<span>01</span>&nbsp;/&nbsp;07
+				</div>
+			</div>
+
+
+
+			<div class="explor-link"><a href="investor-relations.html">explore</a>
+				<!--<span></span>-->
+			</div>
+
+			<div class="swipe_nav title"><i class="fas fa-exchange-alt"></i> swipe</div>
+
+
+		</div>
+
+
+	</div>
+	<script src="js/build.min.js"></script>
+	<script src="js/bootstrap.bundle.min.js"></script>
+	<script src="https://kit.fontawesome.com/7651e8d221.js" crossorigin="anonymous"></script>
+	<script src="js/aos.js"></script>
+	<script src="js/wow.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/app.min.js"></script>
+</body>
+
+</html>
